@@ -8,7 +8,7 @@ export const loadModel = (file) => {
 
 export const generateSentence = (model) => {
   const sentence = randomPick(model.strings);
-  return sentence.replace(/\${(.+?)}/, (matched) => {
+  return sentence.replace(/\${(.+?)}/g, (matched) => {
     const variableName = matched.substring(2, matched.length - 1);
     const collection = model.collections[variableName];
     return randomPick(collection);
