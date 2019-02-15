@@ -1,0 +1,39 @@
+{
+  "collections": {
+    "bortz-values": [
+      "",
+      "mayo",
+      "cestershire",
+      "chup",
+      "aïoli",
+      "ouille",
+      "atziki",
+      "uyu",
+      "remoulade",
+      "oumous",
+      "camole",
+      "chili",
+      "becue",
+      "pesto",
+      "penade",
+      "miso",
+      "atsivi",
+      "coulis",
+      "vigote",
+      "ibiche",
+      "amel",
+      "aigrette",
+      "eaubriand",
+      "éarnaise",
+      "riracha",
+      "politaine",
+      "illade",
+      "inade",
+      "itron vert",
+      "caviar d'aubergine"
+    ]
+  },
+  "strings": [
+    "Bortz${bortz-values}"
+  ]
+}
