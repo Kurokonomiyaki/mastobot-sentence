@@ -1,6 +1,6 @@
 node_modules/
 settings.json
-model/
+model/*
 !model/example.json
-img/
+img/*
 !img/example.jpg

@@ -1,0 +1,11 @@
+{
+  "collections": {
+    "my-collection": ["this is a collection", "woaaah, the beautiful collection", "what a nice collection"],
+    "another-collection": ["this is another collection", "this is a different collection", "this is not the same collection"]
+  },
+  "strings": [
+    "A simple string",
+    "A string with a variable value randomly picked from my-collection: ${my-collection}",
+    "A string with a variable value randomly picked from my-collection AND another-collecetion: ${my-collection}, ${another-collection}"
+  ]
+}
