@@ -20,7 +20,7 @@ var loadModel = exports.loadModel = function loadModel(file) {
 
 var generateSentence = exports.generateSentence = function generateSentence(model) {
   var sentence = (0, _util.randomPick)(model.strings);
-  return sentence.replace(/\${(.+?)}/, function (matched) {
+  return sentence.replace(/\${(.+?)}/g, function (matched) {
     var variableName = matched.substring(2, matched.length - 1);
     var collection = model.collections[variableName];
     return (0, _util.randomPick)(collection);
